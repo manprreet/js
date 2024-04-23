@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/server
+    destination: /home/ubuntu
 
 permissions:
   - object: /

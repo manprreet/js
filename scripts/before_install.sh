@@ -1,13 +1,14 @@
 #!/bin/bash
 
-#_Change_Working_Directory
+# Change Working Directory
 cd /home/ubuntu
 
-#_Update_&_Set_Node_Version
-curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
+# Update & Set Node Version
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 
-#_Download_Node_&NPM
-yum -y install nodejs npm
+# Install Node & NPM
+sudo apt update
+sudo apt install -y nodejs npm
 
-#_Download_PM2
-npm install pm2@latest -g
+# Install PM2
+sudo npm install pm2@latest -g

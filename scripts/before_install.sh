@@ -7,8 +7,8 @@ cd /home/ubuntu
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 
 # Install Node & NPM
-sudo apt update
-sudo apt install -y nodejs npm
+#sudo apt update
+#sudo apt install -y nodejs npm
 
 # Install PM2
-sudo npm install pm2@latest -g
+#sudo npm install pm2@latest -g
